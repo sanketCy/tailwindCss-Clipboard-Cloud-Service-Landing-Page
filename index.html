@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="input.css" />
+    <title>tailwindcss simple structure</title>
+  </head>
+  <body>
+    <section id="hero">
+      <!-- Hero section -->
+
+      <div class="section-container pt-16 mb-40">
+        <img src="./images/logo.svg" alt="mian logo" class="mx-auto my-16" />
+        <h3>A history of everything you copy</h3>
+        <p class="section-content mb-10 text-2xl">
+          Clipborad allows you to track and orgnize everything you copy. Instantly
+          access your on all your devices
+        </p>
+
+        <!-- button container -->
+        <div class="btn-container">
+          <a
+            href="#"
+            class="p-4 px-8 bg-strongCyan rounded-full shadow-lg duration-200 hover:opacity-80"
+            >Download for ios</a
+          >
+          <a
+            href="#"
+            class="p-4 px-8 bg-lightBlue rounded-full shadow-lg duration-200 hover:opacity-80"
+            >Download for Andriod</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <!-- Snippet section -->
+    <section id="snippet">
+      <div class="section-container my-20">
+        <h3>Keep track of your snippets</h3>
+        <p class="section-content mb-24">
+          Clipborad Instantly store any item you copy on cloud meaning you can
+          access you snippets immediatley on all your devices.Our mac and ios apps
+          will help you to organize everthing.
+        </p>
+      </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features">
+      <div class="section-container my-20">
+        <div class="relative flex flex-col md:flex-row md:space-x-32">
+          <!-- Image -->
+          <div class="md:w-1/2">
+            <img
+              src="images/image-computer.png"
+              alt="computer image "
+              class="md:absolute top-0 right-[50%]"
+            />
+          </div>
+
+          <!-- Item container -->
+          <div
+            class="flex flex-col mt-16 mb-24 space-y-12 text-xl md:w-1/2 md:mb-60 md:text-left md:pl-16"
+          >
+            <!-- Item 1 -->
+            <div>
+              <h5>Quick Search</h5>
+              <p class="max-w-md text-grayishBlue">
+                Easily search your snippet by content,category,web
+                address,application and more.
+              </p>
+            </div>
+            <!-- Item  -->
+            <div>
+              <h5>icloud sync</h5>
+              <p class="max-w-md text-grayishBlue">
+                Easily search your snippet by content,category,web
+                address,application and more.
+              </p>
+            </div>
+            <!-- Item 1 -->
+            <div>
+              <h5>Complete history</h5>
+              <p class="max-w-md text-grayishBlue">
+                Easily search your snippet by content,category,web
+                address,application and more.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Access everywhere section -->
+    <section id="access">
+      <div class="section-container my-20">
+        <h3>Access Clipboard Anywhere</h3>
+        <p class="section-content mb-24">
+          Whether you're on the go, or at your computer you can access, all your
+          Clipboard snippets in a few simple clicks
+        </p>
+        <img
+          src="images/image-devices.png"
+          alt="cool computer images"
+          class="mx-auto"
+        />
+      </div>
+    </section>
+
+    <!-- Supercharge section -->
+    <section id="supercharge">
+      <div class="section-container my-20">
+        <h3>Supercharge your workflow</h3>
+        <p class="section-content mb-16">
+          we've got the tools to boost your productivity
+        </p>
+        <!-- Item container -->
+        <div
+          class="flex flex-col items-center justify-between space-y-16 md:flex-row md:space-y-0 md:space-x-12"
+        >
+          <!-- Itme 1 -->
+          <div class="flex flex-col items-center space-y-5">
+            <img
+              src="images/icon-blacklist.svg"
+              alt="balcklist blacklist"
+              class="mb-6"
+            />
+            <h5>Create the blacklist</h5>
+            <p class="max-w-md text-grayishBlue">
+              Easily search your snippets by content, web addresss,category,
+              application and more.
+            </p>
+          </div>
+
+          <!-- Itme 2 -->
+          <div class="flex flex-col items-center space-y-5">
+            <img
+              src="images/icon-text.svg"
+              alt="balcklist blacklist"
+              class="mb-6"
+            />
+            <h5>Plain text snippets</h5>
+            <p class="max-w-md text-grayishBlue">
+              Remove unwanted formatting form copied text for consistent look
+            </p>
+          </div>
+
+          <!-- Itme 3 -->
+          <div class="flex flex-col items-center space-y-5">
+            <img
+              src="images/icon-preview.svg"
+              alt="balcklist blacklist"
+              class="mb-6"
+            />
+            <h5>Sneak Review</h5>
+            <p class="max-w-md text-grayishBlue">
+              Quick preview of all your snippets on your clipborad for easy access
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Referance section -->
+    <section id="refernce">
+      <div
+        class="flex flex-col items-center justify-between space-y-16 px-10 mx-auto my-44 max-w-6xl md:flex-row md:space-y-0"
+      >
+        <img src="images/logo-google.png" alt="goggle logo" />
+        <img src="images/logo-ibm.png" alt="" />
+        <img src="images/logo-microsoft.png" alt="" />
+        <img src="images/logo-hp.png" alt="" />
+        <img src="images/logo-vector-graphics.png" alt="" />
+      </div>
+    </section>
+
+    <!-- Bottom CTA section -->
+    <section id="bottom">
+      <div class="section-container my-20">
+        <h3>Clipboard for ios and mac os</h3>
+        <p class="section-content mb-10">
+          Availabel for free on the Store.Download for mac or iocs,sync with
+          iCloud and you're ready to start adding clipborad
+        </p>
+
+        <!-- buttons container -->
+        <div class="btn-container">
+          <a
+            href="#"
+            class="p-4 px-8 bg-strongCyan rounded-full shadow-lg duration-200 hover:opacity-80"
+            >Download for ios</a
+          >
+          <a
+            href="#"
+            class="p-4 px-8 bg-lightBlue rounded-full shadow-lg duration-200 hover:opacity-80"
+            >Download for Andriod</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <footer class="bg-gray-50">
+      <div class="section-container">
+        <div class="flex flex-col items-center justify-between md:flex-row">
+          <!-- Image -->
+          <img src="images/logo.svg" alt="" class="scale-50" />
+          <!-- contianer for menus & social -->
+          <div
+            class="flex flex-col items-center justify-between space-y-6 mb-10 flex-1 md:flex-row md:space-y-0 md:mb-0 text-grayishBlue"
+          >
+            <!-- Menus -->
+            <div
+              class="flex flex-col justify-between space-y-4 md:flex-row md:ml-24 md:space-y-0 md:space-x-24"
+            >
+              <!-- Menu 1 -->
+              <div class="flex flex-col space-y-4 text-center md:text-left">
+                <div><a href="" class="hover:text-strongCyan">FAQ's</a></div>
+                </div>
+                <div><a href="" class="hover:text-strongCyan">Contact Us</a></div>
+              </div>
+              <!-- Menu 2 -->
+              <div class="flex flex-col space-y-4 text-center md:text-left">
+                <div><a href="" class="hover:text-strongCyan">Privacy Policy</a></div>
+                </div>
+                <div><a href="" class="hover:text-strongCyan">Installation Guid</a></div>
+              </div>
+             
+
+                            
+            </div>
+            
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
